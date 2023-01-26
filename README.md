@@ -22,7 +22,8 @@
 
 python3 unittests/calculator_test.py 
 
-![image](https://user-images.githubusercontent.com/50951863/214808719-79e7bcd5-0fc6-44e9-9988-60942c7f3dde.png)
+![image](https://user-images.githubusercontent.com/50951863/214808873-387cd5cc-aa1b-402f-a5d5-bc0b20133736.png)
+
 
 
 
