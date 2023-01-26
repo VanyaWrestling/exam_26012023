@@ -1,6 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
+#include "argv-fuzz-inl.h"
 #include <stdlib.h>
 
 
@@ -55,6 +56,8 @@ void usage (char *program)
 }
 
 int main(int argc, char *argv[]){
+    __AFL_INIT();
+    AFL_INIT_SET0("simple-calc");
     printf("Simple calculator\n");
     if (argc == 1){
         fprintf(stderr,"Error in %s\n", argv[0]);
@@ -99,8 +102,8 @@ int main(int argc, char *argv[]){
             printf("Result of sqrt(%.0lf) = %.2lf\n", first, res);
         }
         else{
-            strncpy(argv[4],"error!!", strlen("error"));
-            usage(argv[4]);
+            strncpy(argv[argc-1],"error!!", strlen("error")); //проблема заключается в том, что при определенных входных данных возможно обращение к несуществующему элементу массива.
+            usage(argv[argc-1]); // исправление - обращение к последнему элементу массива через argc-1
         }
     }
     printf("Goodbye\n");
