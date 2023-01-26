@@ -11,10 +11,15 @@
 
 1) Был написан код простого калькулятора
 2) Далее были написаны позитивные юнит-тесты в файле calculator_test.py
+
 ![image](https://user-images.githubusercontent.com/50951863/214799302-59cd8db6-1cf9-42af-a8e4-8a1b56e1efe4.png)
+
 3) Далее были написаны негативные юнит-тесты
+
 ![image](https://user-images.githubusercontent.com/50951863/214799423-63bdbfce-efe4-4627-80a6-1e2964c55e08.png)
+
 4) Результат тестирования программы
+
 ![image](https://user-images.githubusercontent.com/50951863/214799684-48445898-ff22-45c7-acf1-8bd9cdefd0cf.png)
 
 
