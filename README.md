@@ -20,7 +20,11 @@
 
 4) Результат тестирования программы
 
-![image](https://user-images.githubusercontent.com/50951863/214799684-48445898-ff22-45c7-acf1-8bd9cdefd0cf.png)
+python3 unittests/calculator_test.py 
+
+![image](https://user-images.githubusercontent.com/50951863/214808873-387cd5cc-aa1b-402f-a5d5-bc0b20133736.png)
+
+
 
 
  
