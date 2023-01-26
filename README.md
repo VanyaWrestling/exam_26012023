@@ -20,7 +20,12 @@
 
 4) Результат тестирования программы
 
-![image](https://user-images.githubusercontent.com/50951863/214799684-48445898-ff22-45c7-acf1-8bd9cdefd0cf.png)
+python3 unittests/calculator_test.py 
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
 
 
  
