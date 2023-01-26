@@ -21,11 +21,9 @@
 4) Результат тестирования программы
 
 python3 unittests/calculator_test.py 
-.......
-----------------------------------------------------------------------
-Ran 7 tests in 0.000s
 
-OK
+![image](https://user-images.githubusercontent.com/50951863/214808719-79e7bcd5-0fc6-44e9-9988-60942c7f3dde.png)
+
 
 
  
